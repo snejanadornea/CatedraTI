@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="images/logo.png" />
+    <title>Catedra</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html">
+            <i class="fas fa-user-graduate logo"></i>
+            Catedra Tehnologii Informaționale
+        </a>
+
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html"> <i class="fas fa-home"></i> Despre noi</a>
+            <a href="membrii.html"> <i class="fas fa-chalkboard-teacher"></i> Membrii</a>
+            <a href="meserii.html"> <i class="fas fa-laptop"></i> Meserii</a>
+            <a href="activitati.html"> <i class="fas fa-icons"></i> Activități</a>
+            <a href="contacte.html"> <i class="fas fa-tty"></i> Contacte</a>
+
+        </aside>
+
+        <main>
+            <h2 class="title">Contacte</h2>
+
+            <div class="row">
+
+                <div class="col-50">
+                    <h3>Contacte:</h3>
+
+                    <ul class="contact-list">
+                        <li><b>Adresa:</b></li>
+                        <li>Republica Moldova, </br> or.Cahul, </br> str. Mihail Șolohov, 40</li>
+                        <li><b>E-mail:</b> sp1_cahul@mail.ru</li>
+                    </ul>
+                </div>
+
+                <div class="col-50">
+                    
+                    <ul class="contact-list">
+                        <li><b>Telefon:</b></li>
+                        <li>+373-299-40-603 - Anticamera</li>
+                        <li>+373-299-40-644 - Dir. Adjunct</li>
+                        <li>+373-299-40-269 - Contabilitate</li>
+                        <li>+373-299-40-559 - Cămine</li>
+                        <li>+373-299-81-075 - Secretariat</li> 
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11107.17902122133!2d28.18086499496235!3d45.89541786736918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b65c8c16b34e6f%3A0x56c2190f66f1971a!2sStrada%20Mihail%20%C8%98olohov%2C%20Cahul%2C%20Moldova!5e0!3m2!1sro!2s!4v1628881724594!5m2!1sro!2s"
+                        width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" placeholder="Nume" required/>
+                            <input type="email" placeholder="E-mail" required/>
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input type="submit" value="Transmite" />
+                        </form>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </main>
+
+    </div>
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
